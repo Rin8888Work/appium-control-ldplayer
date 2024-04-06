@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "appium": "^2.5.1",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "module-alias": "^2.2.3",
+    "sharp": "^0.33.3",
+    "uuid": "^9.0.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@appium/images-plugin": "^3.0.3",
+    "@appium/relaxed-caps-plugin": "^1.0.6",
+    "appium-uiautomator2-driver": "^3.0.4",
+    "nodemon": "^3.1.0",
+    "webdriverio": "^8.35.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^7.2.1",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@helpers": "./helpers"
+  }
+}
